@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section{
+            position: relative;
+        }
+        section #aboveimg{
+            position: absolute;
+            top: 200px;
+            left: 40px;
+        }
+        section #aboveimg h1{
+            color: white;
+            font-size: 40px;
+
+        }
+        section #aboveimg h1 span{
+            background-color: rgba(10, 10, 10, 0.7);
+
+        }
+        nav{
+            background-color: black;
+        }
+        nav ul{
+            padding: 0px;
+            list-style-type: none;
+
+        }
+        nav ul li{
+            display: inline-block;
+
+        }
+        nav ul li a{
+            color: wheat;
+            display: inline-block;
+            padding: 10px;
+            text-decoration: none;
+        }
+        .limenu{
+            position: relative;
+            z-index: 33333;
+        } 
+        .limenu #dropmenu{
+            background-color: bisque;
+            color: black;
+            position: absolute;
+            display: none;
+
+        }
+        .limenu :hover #dropmenu{
+            display: block;
+        }
+        #dropmenu a{
+            display: block;
+            padding: 10px;
+            color: black;
+            text-decoration: none;
+        }
+        #dropmenu a :hover{
+            background-color: darkgrey;
+            color: navajowhite;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="">home</a></li>
+            <li><a href="">about</a></li>
+            <li><a href="">contact</a></li>
+            <li class="limenu">
+                <a href="">user</a>
+                <div id="dropmenu">
+                        welcome
+                   <a href="">sign up</a>
+                   <a href="">sign in</a>
+                   <a href="">forgetpassword</a>
+                </div>
+            </li>
+            
+        </ul> 
+    </nav>
+    <section>
+        <img src="120221118433765834586.jpg" alt="" width="100%" height="100%">
+        <div id="aboveimg">
+            <h1><span>Br</span> Reborts</h1>
+        </div>
+    </section>
+</body>
+</html>

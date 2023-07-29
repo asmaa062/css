@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        main{
+            height:300px;
+
+        }
+        
+        main #leftside{
+            width: 50%;
+            background-color:burlywood ;
+            height: 100%;
+            float: left;
+        }
+        main #rightside{
+            width: 50% ;
+            background-color: blanchedalmond;
+            height: 100%;
+            float: right;
+        }
+        .clear{
+            clear: both;
+            content: ;
+        }
+
+       
+       
+        nav{
+            background-color: black;
+            text-align: center;
+        }
+        nav a{
+            color: white;
+
+            font-weight: bold;
+            text-decoration: none;
+            display: inline-block;
+            padding: 10px;
+       }/*
+        nav a:link ,nav a:visited{
+
+        }
+        nav a:active, nav a:hover{}*/
+
+      
+        nav a:hover{
+            background-color: lightcoral;
+            color: black;
+        }
+        
+       
+
+        
+       
+        aside{
+            background-color: black;
+            text-align: center;
+            width: 30%;
+            
+        }
+        aside a{
+            color: white;
+            font-weight:bold;
+
+
+            text-decoration: none;
+            display: block;
+            padding: 10px;
+        }
+        aside a:hover{
+            background-color: cadetblue;
+        }
+        header{
+            background-color: black;
+            text-align: center;
+        }
+        header ul{
+           
+            padding: 0px;
+            list-style-type: none;
+
+        }
+        header ul li{
+           
+            display: inline-block;
+        }
+        header ul li a{
+            display: inline-block;
+            padding: 10px;
+            color: white;
+            text-decoration: none; 
+            font-weight: bold;
+
+        }
+        header ul li :hover{
+            background-color: lightcoral;
+            color: black;
+
+        }
+        table{
+            border: 1px solid yellowgreen; 
+            
+
+        } 
+        table tr {
+
+        }
+        
+        table tr th{
+           background-color:darkcyan ;
+        }
+        table tr td,table tr th{
+            border: 1px solid darkcyan;
+            padding: 10px;
+        }
+        table.even{
+             background-color: lightgray;
+            }
+            #d1{
+                background-color: lightskyblue;
+                width: 200px; 
+                height: 200px;
+                overflow: auto;
+
+            }
+                
+              
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <main>
+        <section id="leftside"> 
+        </section>
+        <section id="rightside">
+        </section>
+        <div class="clear"></div>
+    </main>
+    <div id="d1"> 
+        
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+         Voluptatibus vitae quam itaque consequuntur cupiditate quaerat animi harum mollitia, possimus placeat?
+        Optio inventore veniam provident alias, enim tempore voluptates magnam non.
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum ex ab quas cumque,
+         corrupti cum obcaecati nisi saepe quia animi,
+         atque nemo veritatis sunt neque voluptatem facere eveniet possimus. Sequi.
+    </div>
+   
+    <nav>
+        <a href="#">index</a>       
+        <a href="#">index</a>  
+        <a href="#">index</a>  
+        <a href="#">index</a>  
+        <a href="#">index</a>  
+
+         
+
+
+
+    </nav>
+    <aside>
+        <a href="#">index</a>  
+        <a href="#">index</a>  
+        <a href="#">index</a>  
+        <a href="#">index</a>  
+        <a href="#">index</a>  
+
+
+
+    </aside>
+    <header>
+        <ul type="none" >
+            <li><a href="#">index</a></li>
+            <li><a href="#">index</a></li>
+            <li><a href="#">index</a></li>
+            <li><a href="#">index</a></li>
+            <li><a href="#">index</a></li>
+        </ul>
+    </header>
+    <table >
+        <tr class="odd">
+            <th>name</th>
+            <th>email</th>
+            <th>mobile</th>
+            <th>address</th>
+        </tr>
+        <tr class="even">
+            <td>ahmed mohamed ali</td>
+            <td>ahmed@gmail.com</td>
+            <td>010010101</td>
+            <td>mansoura</td>
+        </tr> 
+        <tr class="odd">
+            <td>mostafa mohamed ali</td>
+            <td>mostafa@gmail.com</td>
+            <td>010203040</td>
+            <td>cairo</td>
+        </tr>   
+       
+            
+
+        
+    </table>
+    
+
+
+
+
+
+    
+</body>
+</html>

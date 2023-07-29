@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #animation{
+            width: 100px;
+            height: 100px;
+            background-color: brown;
+            position: relative;
+            left: 0px;
+        }
+        @keyframes identifier{
+            
+        }
+        #transition{
+            width: 100px;
+            height: 100px;
+            background-color: cadetblue;
+            transition: width 1s, height 1s , background 1s;
+
+        }
+        #transition:hover{
+            width: 200px;
+            height: 200px;
+            background-color: brown;
+
+        }
+        #transform{
+            width: 100px;
+            height: 100px;
+            background-color: cadetblue;
+            transform: translate(20px,20px);
+            transform: translateY(50px);
+
+            transform: rotate(-45deg);
+            transform: scale(3,2);
+            transform: skew(20deg);
+
+            transform: translate(50px,20px) rotate(-45deg);
+        }
+        #d1{
+            height: 300px;
+            width: 700px;
+            background: rgb(44, 44, 170);
+            background: linear-gradient(81deg, rgba(44,44,170,1)0%,rgba(178,236,247,1)100%);
+            box-shadow: rgba( 0 , 0 , 0 , 24 ) 0px 3px 8px;
+        }
+        #d2{
+            height: 300px;
+            width: 700px;
+            background: rgb(44, 44, 170);
+            background: linear-gradient(81deg, rgba(44,44,170,1)0%,rgba(178,236,247,1)100%);
+            text-align: center;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        h1{
+            font-size: 72px;
+            background: rgb(44, 44, 170);
+            background: linear-gradient(81deg, rgba(44,44,170,1)0%,rgba(178,236,247,1)100%);
+            text-align: center;
+            padding: 20px;
+            box-sizing: border-box;
+
+            -webkit-background-clip: text;
+
+                 background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        input[typy="text"]{
+            width: 60px;
+            padding: 10px;
+            transition: width 2s;
+        }
+        input[typy="text"]{
+            width: 220px;
+        }
+    </style>
+</head>
+<body>
+    <div id="animation">
+
+    </div>
+    <input type="text" name="" id="" placeholder="search">
+    <div id="transition">
+
+    </div>
+    <div id="transform">
+
+    </div>
+      <div id="d1">
+
+      </div> 
+      <div id="d2">
+        <h1>welcome All Here</h1>
+      </div> 
+</body>
+</html>
